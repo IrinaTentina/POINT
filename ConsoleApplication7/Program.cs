@@ -13,6 +13,8 @@ namespace ConsoleApplication4
         public int p; // средняя цена за единицу товара, руб
         public int Q; // итоговый показатель - рыночный потенциал спроса
 
+    
+
         static void Main(string[] args)
         {
             Console.WriteLine("Введите показатели:");
@@ -23,8 +25,11 @@ namespace ConsoleApplication4
             Console.WriteLine("Средняя цена Вашей единицы товара:");
             int p = Convert.ToInt32(Console.ReadLine());
 
+            k = k / n; // подсчет среднего кол-ва покупок на 1 потребителя за год
+            int potencial =n*p*k;
 
-
+            Console.WriteLine("Рыночный потенциал спроса: {0}", potencial);
+            Console.ReadKey();
         }
     }
 }
