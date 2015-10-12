@@ -26,7 +26,7 @@ namespace ConsoleApplication4
             int p = Convert.ToInt32(Console.ReadLine());
 
             k = k / n; // подсчет среднего кол-ва покупок на 1 потребителя за год
-            int potencial =n*p*k;
+            int potencial =n*p*k; // подсчет потенциала
 
             Console.WriteLine("Рыночный потенциал спроса: {0}", potencial);
             Console.ReadKey();
