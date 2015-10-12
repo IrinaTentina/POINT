@@ -22,7 +22,7 @@ namespace ConsoleApplication4
             int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Число покупок Вашего веб-сервиса за год:");
             int k = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Средняя цена Вашей единицы товара:");
+            Console.WriteLine("Средняя цена Вашего веб-сервиса:");
             int p = Convert.ToInt32(Console.ReadLine());
 
             k = k / n; // подсчет среднего кол-ва покупок на 1 потребителя за год
